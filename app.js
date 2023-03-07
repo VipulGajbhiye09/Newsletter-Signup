@@ -26,7 +26,7 @@ app.post("/", function(req, res) {
   };
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us21.api.mailchimp.com/3.0/lists/1f80b39604";
+  const url = "https://us21.api.mailchimp.com/3.0/lists/listidhere"; //insert list id here
   const options = {
     method: "POST",
     auth: "vipul:apikeyhere" //insert apikey here
