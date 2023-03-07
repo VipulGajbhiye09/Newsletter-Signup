@@ -29,7 +29,7 @@ app.post("/", function(req, res) {
   const url = "https://us21.api.mailchimp.com/3.0/lists/1f80b39604";
   const options = {
     method: "POST",
-    auth: "vipul:f51dc1a3410988a31829dba1f233e8ae-us21"
+    auth: "vipul:apikeyhere" //insert apikey here
   };
 
   const request = https.request(url, options, function(response){
