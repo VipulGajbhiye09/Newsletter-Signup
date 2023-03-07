@@ -57,9 +57,3 @@ app.post("/failure",function(req,res){
 app.listen(3000, function() {
   console.log("Server is running on port 3000");
 });
-
-//Api key
-// f51dc1a3410988a31829dba1f233e8ae-us21
-
-//lsit id
-//1f80b39604
